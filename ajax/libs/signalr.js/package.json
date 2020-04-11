@@ -14,8 +14,8 @@
     "url": "git+https://github.com/SignalR/SignalR.git"
   },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/SignalR/bower-signalr.git",
+    "source": "npm",
+    "target": "signalr",
     "fileMap": [
       {
         "basePath": "",
