@@ -1,0 +1,34 @@
+{
+  "name": "@amcharts/amcharts4",
+  "filename": "core.min.js",
+  "description": "JThe most advanced amCharts charting library for JavaScript and TypeScript apps.",
+  "keywords": [
+    "amcharts",
+    "javascript",
+    "charts"
+  ],
+  "homepage": "https://www.amcharts.com/",
+  "author": "amCharts <contact@amcharts.com>",
+  "license": {
+    "name": "Free and commercial",
+    "url": "https://github.com/amcharts/amcharts4/blob/master/dist/script/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amcharts/amcharts4.git"
+  },
+  "autoupdate": {
+    "source": "npm",
+    "target": "@amcharts/amcharts4",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "patterns/!(chalk)/*",
+          "**/!(examples|samples)/!(LICENSE|index.js|*.json|*.md|*.txt|*.csv|*.png)",
+          "*.+(js|map)"
+        ]
+      }
+    ]
+  }
+}
