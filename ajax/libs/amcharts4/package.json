@@ -1,5 +1,5 @@
 {
-  "name": "@amcharts/amcharts4",
+  "name": "amcharts4",
   "filename": "core.min.js",
   "description": "The most advanced amCharts charting library for JavaScript and TypeScript apps.",
   "keywords": [
