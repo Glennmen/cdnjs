@@ -22,9 +22,7 @@
     {
       "basePath": "",
       "files": [
-        "patterns/!(chalk)/*",
-        "**/!(examples|samples)/!(LICENSE|index.js|*.json|*.md|*.txt|*.csv|*.png)",
-        "*.+(js|map)"
+        "{,lang/,plugins/,themes/}*.@(js|ts|map)"
       ]
     }
   ]
